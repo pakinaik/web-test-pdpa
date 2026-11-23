@@ -24,6 +24,10 @@ LLM ตอบ      : แนะนำให้ [PERSON_1] ติดต่อ HR .
 ผู้ใช้เห็น    : แนะนำให้คุณสมชาย ใจดี ติดต่อ HR ... และแจ้งเบอร์ 081-234-5678 ไว้
 ```
 
+**Preview ก่อนส่ง** — ผู้ใช้เห็นว่าอะไรจะถูก mask และข้อความที่ AI จะได้รับจริง (เลือก mask เพิ่มเองได้)
+
+![Preview การ mask ก่อนส่ง](docs/images/preview-mask.png)
+
 ## Architecture
 
 ```mermaid
@@ -92,11 +96,27 @@ sequenceDiagram
 | เงินเดือนรวม 24 เดือน | 1,001,600 ❌ | 1,005,600 ✅ | 1,005,600 |
 | รายได้รวมทั้งสิ้น | 1,049,600 ❌ | 1,053,600 ✅ | 1,053,600 |
 
+- ⚠️ แม้ยอดรวมจะถูกแล้ว ส่วนบรรยายที่ LLM เขียนเองยังพลาดได้ — ในรายงานด้านล่าง LLM เขียนว่าเงินเดือนปรับ "ตั้งแต่ 2024-04" ทั้งที่ข้อมูลจริงคือ 2025-04
+  → ตัวเลข/วันที่ที่เป็นทางการควรมาจาก server หรือ template ทั้งหมด ให้ LLM ทำเฉพาะส่วนสรุป และต้องมี disclaimer (ซึ่ง PDF ใส่ไว้ทุกหน้า)
+
+<table>
+<tr>
+<td width="50%"><img src="docs/images/chat-pdf-answer.jpg" alt="คำตอบในแชทพร้อมปุ่มดาวน์โหลด PDF"><br><sub>คำตอบในแชท + ปุ่มดาวน์โหลด PDF (ไฟล์มีอายุ 24 ชม.)</sub></td>
+<td width="50%"><img src="docs/images/report-pdf-1.png" alt="ตัวอย่างไฟล์ PDF"><br><sub>PDF ที่ server render (ชื่อจริงกลับมาหลัง unmask, disclaimer ท้ายหน้า)</sub></td>
+</tr>
+</table>
+
 ### 6. Audit ที่ตรวจสอบย้อนหลังได้
 - บันทึก payload ทั้งก้อนที่ส่งออก LLM จริง (ฉบับ masked) พร้อม **SHA-256** → พิสูจน์ได้ว่าอะไรออกจากระบบไปบ้าง
 - บันทึกว่าใครเข้าถึงข้อมูลพนักงานคนไหน หมวดไหน (เก็บแค่ id ไม่เก็บค่า), การสร้าง / ดาวน์โหลด PDF
 - ทุกทางออกหลังส่ง payload ไปแล้ว (error, timeout, ผู้ใช้ปิดแท็บ) ยังมีแถว audit เสมอ
 - Retention job ลบข้อความ / vault / audit / รายงานที่หมดอายุอัตโนมัติ
+
+![Audit log](docs/images/audit-log.png)
+
+**Payload ที่ส่งออก LLM จริง** — มีแต่ token (`[PERSON_1]`, `[EMPLOYEE_ID_1]`) ส่วนตัวเลขเงินเดือนส่งเป็น plain เพื่อให้ LLM วิเคราะห์ได้ และมียอดรวมที่ server คำนวณแนบไป
+
+![Payload ที่ส่งออก LLM พร้อม SHA-256](docs/images/audit-payload.png)
 
 ## ความปลอดภัยอื่นๆ
 - JWT ใน **httpOnly cookie** (`SameSite=Strict`), rate limit ต่อผู้ใช้, account lockout
