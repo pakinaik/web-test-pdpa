@@ -1,0 +1,1118 @@
+[
+  {
+    "caseKey": "phone-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "ติดต่อกลับที่ 081-234-5678 ด่วนเลยครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "081-234-5678"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "phone-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "เบอร์โทร 0891234567 ไม่มีคนรับสาย",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "0891234567"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "phone-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "โทรหาฉันที่ 02-123-4567 ช่วงบ่าย",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "02-123-4567"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "phone-th-04",
+    "lang": "th",
+    "category": "basic",
+    "text": "เบอร์สำนักงาน (02) 345 6789 ต่อ 12",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "(02) 345 6789"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "phone-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "Please call me back on 086-765-4321 tomorrow.",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "086-765-4321"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "phone-th-ev-01",
+    "lang": "th",
+    "category": "evasion",
+    "text": "ติดต่อ ๐๘๑-๒๓๔-๕๖๗๘ ได้เลย",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "๐๘๑-๒๓๔-๕๖๗๘"
+      }
+    ],
+    "note": "เลขไทย"
+  },
+  {
+    "caseKey": "phone-th-ev-02",
+    "lang": "th",
+    "category": "evasion",
+    "text": "เบอร์ +66 81 234 5678 ค่ะ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "+66 81 234 5678"
+      }
+    ],
+    "note": "+66"
+  },
+  {
+    "caseKey": "phone-th-ev-03",
+    "lang": "th",
+    "category": "evasion",
+    "text": "โทร 081 234 5678 หรือ 081.234.5679",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "081 234 5678"
+      },
+      {
+        "type": "PHONE",
+        "value": "081.234.5679"
+      }
+    ],
+    "note": "ช่องว่าง/จุด"
+  },
+  {
+    "caseKey": "phone-th-ev-04",
+    "lang": "th",
+    "category": "evasion",
+    "text": "เบอร์ 08​1-234-​5678 นะ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "08​1-234-​5678"
+      }
+    ],
+    "note": "zero-width"
+  },
+  {
+    "caseKey": "phone-th-ev-05",
+    "lang": "mixed",
+    "category": "evasion",
+    "text": "call ０８１２３４５６７８ asap",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "０８１２３４５６７８"
+      }
+    ],
+    "note": "full-width"
+  },
+  {
+    "caseKey": "phone-th-ev-06",
+    "lang": "th",
+    "category": "evasion",
+    "text": "ติดต่อ +66812345678 หรือ 66 81 234 5679",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PHONE",
+        "value": "+66812345678"
+      },
+      {
+        "type": "PHONE",
+        "value": "66 81 234 5679"
+      }
+    ],
+    "note": "+66 ติดกัน"
+  },
+  {
+    "caseKey": "id-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "เลขบัตรประชาชน 1101700234568 ของผู้ร้อง",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "1101700234568"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "id-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "บัตร ปชช. 3-1005-00123-45-8 อยู่แถวนี้",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "3-1005-00123-45-8"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "id-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "My national ID is 5209900012347 please check",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "5209900012347"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "id-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "ผู้ร้องมีเลขบัตร 1234567890121 และเลขบัตรผู้ช่วย 3109900123453",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "1234567890121"
+      },
+      {
+        "type": "THAI_ID",
+        "value": "3109900123453"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "id-th-04",
+    "lang": "th",
+    "category": "basic",
+    "text": "เลขประจำตัว 1100400567897 ถูกใช้ซ้ำ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "1100400567897"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "id-th-ev-01",
+    "lang": "th",
+    "category": "evasion",
+    "text": "บัตร ๑๑๐๑๗๐๐๒๓๔๕๖๘ ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "๑๑๐๑๗๐๐๒๓๔๕๖๘"
+      }
+    ],
+    "note": "เลขไทย"
+  },
+  {
+    "caseKey": "id-th-ev-02",
+    "lang": "th",
+    "category": "evasion",
+    "text": "บัตร 1 1017 00234 56 8 ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "1 1017 00234 56 8"
+      }
+    ],
+    "note": "ช่องว่าง"
+  },
+  {
+    "caseKey": "id-th-ev-03",
+    "lang": "th",
+    "category": "evasion",
+    "text": "บัตร 1 1 0 1 7 0 0 2 3 4 5 6 8 ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "1 1 0 1 7 0 0 2 3 4 5 6 8"
+      }
+    ],
+    "note": "ช่องว่างทุกหลัก"
+  },
+  {
+    "caseKey": "id-th-ev-04",
+    "lang": "th",
+    "category": "evasion",
+    "text": "บัตร 42001​00987657 ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "THAI_ID",
+        "value": "42001​00987657"
+      }
+    ],
+    "note": "zero-width"
+  },
+  {
+    "caseKey": "email-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "อีเมล somchai@example.com ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "somchai@example.com"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "email-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "ส่งมาที่ hr.support@example.co.th ได้เลย",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "hr.support@example.co.th"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "email-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "Contact: jane_doe+hr@example.com for details",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "jane_doe+hr@example.com"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "email-en-02",
+    "lang": "en",
+    "category": "basic",
+    "text": "Reply to john.smith@example.org today",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "john.smith@example.org"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "email-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "อีเมลสำรอง a.b@example.com และ c.d@example.co.th",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "a.b@example.com"
+      },
+      {
+        "type": "EMAIL",
+        "value": "c.d@example.co.th"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "email-ev-01",
+    "lang": "th",
+    "category": "evasion",
+    "text": "อีเมล SOMCHAI@Example.CO.TH ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "SOMCHAI@Example.CO.TH"
+      }
+    ],
+    "note": "ตัวพิมพ์ใหญ่"
+  },
+  {
+    "caseKey": "email-ev-02",
+    "lang": "mixed",
+    "category": "evasion",
+    "text": "mail somchai (at) example (dot) com ได้",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "somchai (at) example (dot) com"
+      }
+    ],
+    "note": "(at)/(dot)"
+  },
+  {
+    "caseKey": "email-ev-03",
+    "lang": "en",
+    "category": "evasion",
+    "text": "write to jane[at]example[dot]com",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "EMAIL",
+        "value": "jane[at]example[dot]com"
+      }
+    ],
+    "note": "[at]/[dot]"
+  },
+  {
+    "caseKey": "bank-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "โอนเข้าบัญชี 123-4-56789-0 ธนาคารกรุงไทย",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "123-4-56789-0"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "bank-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "เลขที่บัญชี 1234567890 ถูกหักผิด",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "1234567890"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "bank-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "Account number 987654321012 was charged twice",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "987654321012"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "bank-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "บช. 4561237890 สาขาสีลม",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "4561237890"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "bank-th-04",
+    "lang": "th",
+    "category": "basic",
+    "text": "บัญชีธนาคาร 567-8-90123-4 ใช้รับเงินเดือน",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "567-8-90123-4"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "bank-th-ev-01",
+    "lang": "th",
+    "category": "evasion",
+    "text": "บัญชี ๑๒๓๔๕๖๗๘๙๐ ครับ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "๑๒๓๔๕๖๗๘๙๐"
+      }
+    ],
+    "note": "เลขไทย"
+  },
+  {
+    "caseKey": "gender-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "ผู้ร้อง เพศชาย อายุ 35 ปี",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "GENDER",
+        "value": "ชาย"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "gender-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "เพศ: หญิง ตำแหน่งเจ้าหน้าที่",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "GENDER",
+        "value": "หญิง"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "gender-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "พนักงาน (ชาย) โดนหักเงินเดือน",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "GENDER",
+        "value": "ชาย"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "gender-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "gender: female, department finance",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "GENDER",
+        "value": "female"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "gender-en-02",
+    "lang": "en",
+    "category": "basic",
+    "text": "The employee is male and works nights",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "GENDER",
+        "value": "male"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "gender-en-03",
+    "lang": "en",
+    "category": "basic",
+    "text": "Female staff reported a payroll issue",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "GENDER",
+        "value": "Female"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "คุณสมชาย ใจดี โดนหักเงินเดือนผิด",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "คุณสมชาย ใจดี"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "นางสาวสมหญิง รักงาน แจ้งว่าไม่ได้รับโบนัส",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "นางสาวสมหญิง รักงาน"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "นายวิชัย มั่นคง ร้องเรียนเรื่องล่วงเวลา",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "นายวิชัย มั่นคง"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-04",
+    "lang": "th",
+    "category": "basic",
+    "text": "นางสุดา แก้วใส ขอลาป่วย",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "นางสุดา แก้วใส"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-05",
+    "lang": "th",
+    "category": "basic",
+    "text": "สมชาย ใจดี ไม่ได้รับค่าเดินทาง",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "สมชาย ใจดี"
+      }
+    ],
+    "note": "ไม่มีคำนำหน้า อยู่ใน known_names"
+  },
+  {
+    "caseKey": "person-th-06",
+    "lang": "th",
+    "category": "basic",
+    "text": "หัวหน้าบอกให้ คุณประเสริฐ ทำงานเพิ่ม",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "คุณประเสริฐ"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-07",
+    "lang": "th",
+    "category": "basic",
+    "text": "ดร.อนุชา พงษ์ดี เป็นผู้อนุมัติ",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "ดร.อนุชา พงษ์ดี"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-th-08",
+    "lang": "th",
+    "category": "basic",
+    "text": "น.ส.ปรียา ศรีสุข ย้ายแผนก",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "น.ส.ปรียา ศรีสุข"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "Mr. John Smith reported a payroll error",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "Mr. John Smith"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-en-02",
+    "lang": "en",
+    "category": "basic",
+    "text": "Ms. Jane Doe was not paid overtime",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "Ms. Jane Doe"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-en-03",
+    "lang": "en",
+    "category": "basic",
+    "text": "john smith complained about leave",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "john smith"
+      }
+    ],
+    "note": "ตัวเล็ก อยู่ใน known_names"
+  },
+  {
+    "caseKey": "person-en-04",
+    "lang": "en",
+    "category": "basic",
+    "text": "Dr. Alan Brown approved the request",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "Dr. Alan Brown"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-mixed-01",
+    "lang": "mixed",
+    "category": "basic",
+    "text": "คุณ John Smith โทรมาถามเรื่อง OT",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "John Smith"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "person-ev-01",
+    "lang": "th",
+    "category": "evasion",
+    "text": "คุณสมชายโดนหักเงินเดือนผิด",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "คุณสมชาย"
+      }
+    ],
+    "note": "เขียนติดกับข้อความ"
+  },
+  {
+    "caseKey": "person-ev-02",
+    "lang": "th",
+    "category": "evasion",
+    "text": "ผู้ร้องคือ สม​ชาย ใจดี ครับ",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "สม​ชาย ใจดี"
+      }
+    ],
+    "note": "zero-width ในชื่อ"
+  },
+  {
+    "caseKey": "person-ev-03",
+    "lang": "en",
+    "category": "evasion",
+    "text": "ask JOHN SMITH about it",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "JOHN SMITH"
+      }
+    ],
+    "note": "ตัวพิมพ์ใหญ่"
+  },
+  {
+    "caseKey": "person-ev-04",
+    "lang": "th",
+    "category": "evasion",
+    "text": "นายสมชายใจดีโทรมา",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "นายสมชายใจดี"
+      }
+    ],
+    "note": "ติดกันหมด"
+  },
+  {
+    "caseKey": "person-hard-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "ปัญหาเกิดกับ ประเสริฐ ทองดี ในแผนกบัญชี",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "ประเสริฐ ทองดี"
+      }
+    ],
+    "note": "ต้องพึ่ง NER"
+  },
+  {
+    "caseKey": "person-hard-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "พี่แจ๋วบอกว่าเงินเดือนไม่ออก",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "แจ๋ว"
+      }
+    ],
+    "note": "ชื่อเล่น ต้องพึ่ง NER"
+  },
+  {
+    "caseKey": "mixed-th-01",
+    "lang": "th",
+    "category": "basic",
+    "text": "คุณสมชาย ใจดี เบอร์ 081-234-5678 โดนหักเงินเดือนผิด",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "คุณสมชาย ใจดี"
+      },
+      {
+        "type": "PHONE",
+        "value": "081-234-5678"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "mixed-th-02",
+    "lang": "th",
+    "category": "basic",
+    "text": "นายวิชัย มั่นคง บัตร 1101700234568 อีเมล wichai@example.com",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "นายวิชัย มั่นคง"
+      },
+      {
+        "type": "THAI_ID",
+        "value": "1101700234568"
+      },
+      {
+        "type": "EMAIL",
+        "value": "wichai@example.com"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "mixed-th-03",
+    "lang": "th",
+    "category": "basic",
+    "text": "นางสุดา แก้วใส เพศหญิง บัญชี 123-4-56789-0 โทร 0812345678",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "นางสุดา แก้วใส"
+      },
+      {
+        "type": "GENDER",
+        "value": "หญิง"
+      },
+      {
+        "type": "BANK_ACCOUNT",
+        "value": "123-4-56789-0"
+      },
+      {
+        "type": "PHONE",
+        "value": "0812345678"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "mixed-en-01",
+    "lang": "en",
+    "category": "basic",
+    "text": "Mr. John Smith (male) email john.smith@example.com phone 0812345679",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "Mr. John Smith"
+      },
+      {
+        "type": "GENDER",
+        "value": "male"
+      },
+      {
+        "type": "EMAIL",
+        "value": "john.smith@example.com"
+      },
+      {
+        "type": "PHONE",
+        "value": "0812345679"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "mixed-mixed-01",
+    "lang": "mixed",
+    "category": "basic",
+    "text": "Employee คุณสมหญิง รักงาน ID 3100500123458 tel 02-123-4567",
+    "knownNames": [
+      "สมชาย ใจดี",
+      "สมหญิง รักงาน",
+      "John Smith"
+    ],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "คุณสมหญิง รักงาน"
+      },
+      {
+        "type": "THAI_ID",
+        "value": "3100500123458"
+      },
+      {
+        "type": "PHONE",
+        "value": "02-123-4567"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "mixed-mixed-02",
+    "lang": "mixed",
+    "category": "evasion",
+    "text": "Ms. Jane Doe โทร ๐๘๑-๒๓๔-๕๖๗๘ mail jane (at) example (dot) com",
+    "knownNames": [],
+    "expected": [
+      {
+        "type": "PERSON",
+        "value": "Ms. Jane Doe"
+      },
+      {
+        "type": "PHONE",
+        "value": "๐๘๑-๒๓๔-๕๖๗๘"
+      },
+      {
+        "type": "EMAIL",
+        "value": "jane (at) example (dot) com"
+      }
+    ],
+    "note": null
+  },
+  {
+    "caseKey": "neg-th-01",
+    "lang": "th",
+    "category": "negative",
+    "text": "ยอดเงินที่ถูกหัก 25,000 บาท ในเดือนมีนาคม",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  },
+  {
+    "caseKey": "neg-th-02",
+    "lang": "th",
+    "category": "negative",
+    "text": "เหตุการณ์เกิดเมื่อวันที่ 12/03/2567 เวลา 08.30-17.30 น.",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  },
+  {
+    "caseKey": "neg-th-03",
+    "lang": "th",
+    "category": "negative",
+    "text": "เลขคำร้อง 1101700234567 ยังไม่ได้รับการตอบกลับ",
+    "knownNames": [],
+    "expected": [],
+    "note": "เลข 13 หลัก checksum ผิด (guard จะ block ฝั่ง .NET)"
+  },
+  {
+    "caseKey": "neg-th-04",
+    "lang": "th",
+    "category": "negative",
+    "text": "ไปเที่ยวชายหาดกับครอบครัวช่วงวันหยุด",
+    "knownNames": [],
+    "expected": [],
+    "note": "ชาย เป็นส่วนของคำ"
+  },
+  {
+    "caseKey": "neg-th-05",
+    "lang": "th",
+    "category": "negative",
+    "text": "ผู้จัดการแผนกไม่อนุมัติการลา",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  },
+  {
+    "caseKey": "neg-th-06",
+    "lang": "th",
+    "category": "negative",
+    "text": "คุณภาพของงานไม่ตรงตามที่ตกลงและนายจ้างไม่จ่ายค่าล่วงเวลา",
+    "knownNames": [],
+    "expected": [],
+    "note": "คุณ/นาย เป็นส่วนของคำประสม"
+  },
+  {
+    "caseKey": "neg-th-07",
+    "lang": "th",
+    "category": "negative",
+    "text": "รหัสโครงการ 20250101 ถูกยกเลิกแล้ว",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  },
+  {
+    "caseKey": "neg-en-01",
+    "lang": "en",
+    "category": "negative",
+    "text": "The payroll system showed an incorrect total of 1,250.50 USD.",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  },
+  {
+    "caseKey": "neg-en-02",
+    "lang": "en",
+    "category": "negative",
+    "text": "Meeting scheduled for 2025-03-12 at 14:00 in room 5B.",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  },
+  {
+    "caseKey": "neg-th-08",
+    "lang": "th",
+    "category": "negative",
+    "text": "ขอสอบถามนโยบายการลาพักร้อนประจำปีของบริษัท",
+    "knownNames": [],
+    "expected": [],
+    "note": null
+  }
+]

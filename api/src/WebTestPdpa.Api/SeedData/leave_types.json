@@ -1,0 +1,44 @@
+[
+  {
+    "code": "SICK",
+    "nameTh": "ลาป่วย",
+    "nameEn": "Sick Leave",
+    "daysPerYear": 30,
+    "isPaid": true
+  },
+  {
+    "code": "PERSONAL",
+    "nameTh": "ลากิจ",
+    "nameEn": "Personal Leave",
+    "daysPerYear": 6,
+    "isPaid": true
+  },
+  {
+    "code": "VACATION",
+    "nameTh": "ลาพักร้อน",
+    "nameEn": "Annual Leave",
+    "daysPerYear": 10,
+    "isPaid": true
+  },
+  {
+    "code": "MATERNITY",
+    "nameTh": "ลาคลอด",
+    "nameEn": "Maternity Leave",
+    "daysPerYear": 98,
+    "isPaid": true
+  },
+  {
+    "code": "ORDINATION",
+    "nameTh": "ลาบวช",
+    "nameEn": "Ordination Leave",
+    "daysPerYear": 15,
+    "isPaid": true
+  },
+  {
+    "code": "MILITARY",
+    "nameTh": "ลารับราชการทหาร",
+    "nameEn": "Military Service Leave",
+    "daysPerYear": 60,
+    "isPaid": true
+  }
+]

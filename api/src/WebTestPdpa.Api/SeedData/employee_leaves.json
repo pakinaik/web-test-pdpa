@@ -1,0 +1,474 @@
+[
+  {
+    "employeeCode": "emp001",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-03-10",
+    "endDate": "2025-03-11",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp001",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-02",
+    "endDate": "2025-11-03",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp001",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-04-07",
+    "endDate": "2026-04-09",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp002",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-04-10",
+    "endDate": "2025-04-12",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp002",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-03",
+    "endDate": "2025-11-04",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp002",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-05-08",
+    "endDate": "2026-05-11",
+    "days": 4.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp003",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-05-10",
+    "endDate": "2025-05-10",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp003",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-04",
+    "endDate": "2025-11-05",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp003",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-06-09",
+    "endDate": "2026-06-10",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp003",
+    "leaveTypeCode": "PERSONAL",
+    "startDate": "2026-07-13",
+    "endDate": "2026-07-13",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp003",
+    "leaveTypeCode": "ORDINATION",
+    "startDate": "2025-05-12",
+    "endDate": "2025-05-26",
+    "days": 15.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp004",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-06-10",
+    "endDate": "2025-06-11",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp004",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-05",
+    "endDate": "2025-11-06",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp004",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-07-06",
+    "endDate": "2026-07-08",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp004",
+    "leaveTypeCode": "SICK",
+    "startDate": "2026-08-14",
+    "endDate": "2026-08-15",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp004",
+    "leaveTypeCode": "MATERNITY",
+    "startDate": "2025-06-02",
+    "endDate": "2025-09-07",
+    "days": 98.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp005",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-07-10",
+    "endDate": "2025-07-12",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp005",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-06",
+    "endDate": "2025-11-07",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp005",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-03-07",
+    "endDate": "2026-03-10",
+    "days": 4.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp005",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-12",
+    "days": 2.0,
+    "status": "pending"
+  },
+  {
+    "employeeCode": "emp006",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-02-10",
+    "endDate": "2025-02-10",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp006",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-07",
+    "endDate": "2025-11-08",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp006",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-04-08",
+    "endDate": "2026-04-09",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp006",
+    "leaveTypeCode": "PERSONAL",
+    "startDate": "2026-07-11",
+    "endDate": "2026-07-11",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp007",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-03-10",
+    "endDate": "2025-03-11",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp007",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-01",
+    "endDate": "2025-11-02",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp007",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-11",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp008",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-04-10",
+    "endDate": "2025-04-12",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp008",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-02",
+    "endDate": "2025-11-03",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp008",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-09",
+    "days": 4.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp008",
+    "leaveTypeCode": "SICK",
+    "startDate": "2026-08-13",
+    "endDate": "2026-08-14",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp008",
+    "leaveTypeCode": "PERSONAL",
+    "startDate": "2026-02-02",
+    "endDate": "2026-02-02",
+    "days": 1.0,
+    "status": "rejected"
+  },
+  {
+    "employeeCode": "emp009",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-05-10",
+    "endDate": "2025-05-10",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp009",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-03",
+    "endDate": "2025-11-04",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp009",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-07-07",
+    "endDate": "2026-07-08",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp009",
+    "leaveTypeCode": "PERSONAL",
+    "startDate": "2026-07-14",
+    "endDate": "2026-07-14",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp010",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-06-10",
+    "endDate": "2025-06-11",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp010",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-04",
+    "endDate": "2025-11-05",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp010",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-03-08",
+    "endDate": "2026-03-10",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp010",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-12",
+    "days": 2.0,
+    "status": "pending"
+  },
+  {
+    "employeeCode": "emp011",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-07-10",
+    "endDate": "2025-07-12",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp011",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-05",
+    "endDate": "2025-11-06",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp011",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-04-09",
+    "endDate": "2026-04-12",
+    "days": 4.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp012",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-02-10",
+    "endDate": "2025-02-10",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp012",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-06",
+    "endDate": "2025-11-07",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp012",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-05-06",
+    "endDate": "2026-05-07",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp012",
+    "leaveTypeCode": "PERSONAL",
+    "startDate": "2026-07-12",
+    "endDate": "2026-07-12",
+    "days": 1.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp012",
+    "leaveTypeCode": "SICK",
+    "startDate": "2026-08-12",
+    "endDate": "2026-08-13",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp013",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-03-10",
+    "endDate": "2025-03-11",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp013",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-07",
+    "endDate": "2025-11-08",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp013",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-06-07",
+    "endDate": "2026-06-09",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp014",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-04-10",
+    "endDate": "2025-04-12",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp014",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-01",
+    "endDate": "2025-11-02",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp014",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-07-08",
+    "endDate": "2026-07-11",
+    "days": 4.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp020",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2025-04-10",
+    "endDate": "2025-04-12",
+    "days": 3.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp020",
+    "leaveTypeCode": "SICK",
+    "startDate": "2025-11-07",
+    "endDate": "2025-11-08",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp020",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-03-06",
+    "endDate": "2026-03-09",
+    "days": 4.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp020",
+    "leaveTypeCode": "SICK",
+    "startDate": "2026-08-10",
+    "endDate": "2026-08-11",
+    "days": 2.0,
+    "status": "approved"
+  },
+  {
+    "employeeCode": "emp020",
+    "leaveTypeCode": "VACATION",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-12",
+    "days": 2.0,
+    "status": "pending"
+  }
+]

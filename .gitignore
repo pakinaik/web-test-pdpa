@@ -1,0 +1,22 @@
+# ⚠️ secrets
+.env
+
+# ⚠️ override เฉพาะเครื่อง dev (เปิด port db) — ห้ามขึ้น repo
+docker-compose.override.yml
+
+# 🧹 ไฟล์งานระหว่างพัฒนา (มี path ในเครื่อง) — เก็บไว้ในเครื่องเท่านั้น
+task_plan.md
+progress.md
+findings.md
+review-notes.md
+
+# 🧹 build output
+bin/
+obj/
+node_modules/
+dist/
+.angular/
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc

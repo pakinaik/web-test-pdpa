@@ -1,0 +1,210 @@
+/* 🚀 theme แนว pixel / block (หญ้า-ดิน-หิน) — CSS ล้วน ไม่โหลดฟอนต์/รูปจากภายนอก */
+:root {
+  --sky-top: #6fb1ff;
+  --sky-bottom: #bfe3ff;
+  --grass: #5fa834;
+  --grass-light: #86d14f;
+  --grass-dark: #3d7a1f;
+  --dirt: #8b5a2b;
+  --dirt-dark: #5e3b1a;
+  --stone: #9a9a9a;
+  --stone-light: #c6c6c6;
+  --stone-dark: #555555;
+  --panel: #c6c6c6;
+  --panel-light: #ffffff;
+  --panel-dark: #555555;
+  --slot: #8b8b8b;
+  --ink: #2a2a2a;
+  --gold: #fcdb05;
+  --redstone: #c62828;
+  --pixel-font: 'Courier New', ui-monospace, monospace;
+}
+
+/* 🔄 กรอบนูนแบบ block: ขอบบน-ซ้ายสว่าง ล่าง-ขวามืด */
+@mixin bevel($light, $dark, $size: 3px) {
+  box-shadow:
+    inset $size $size 0 0 $light,
+    inset (-$size) (-$size) 0 0 $dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Noto Sans Thai', 'Leelawadee UI', sans-serif;
+  color: var(--ink);
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 60%, var(--sky-bottom) 100%);
+  background-attachment: fixed;
+}
+
+/* 🚀 แถบบน = block หญ้าบนดิน */
+.topbar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 10px 16px 12px;
+  color: #fff;
+  background:
+    linear-gradient(180deg, var(--grass-light) 0 6px, var(--grass) 6px 14px, var(--grass-dark) 14px 18px, transparent 18px),
+    repeating-linear-gradient(90deg, var(--dirt) 0 16px, #7a4e24 16px 32px);
+  background-color: var(--dirt);
+  border-bottom: 4px solid var(--dirt-dark);
+  padding-top: 24px;
+  text-shadow: 2px 2px 0 #000;
+}
+.topbar strong {
+  font-family: var(--pixel-font);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+.topbar a {
+  color: #f0e6d2;
+  text-decoration: none;
+  margin-right: 12px;
+  padding: 2px 6px;
+}
+.topbar a:hover { color: #fff; }
+.topbar a.active {
+  color: #fff;
+  font-weight: 700;
+  background: rgba(0, 0, 0, .3);
+  outline: 2px solid var(--grass-light);
+}
+.topbar button { text-shadow: none; }
+.spacer { flex: 1; }
+
+main { padding: 16px; }
+
+/* 🔄 ปุ่มหิน */
+button {
+  cursor: pointer;
+  padding: 7px 14px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 0 #3a3a3a;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: var(--stone);
+  @include bevel(var(--stone-light), var(--stone-dark));
+  margin: 2px 4px 2px 0;
+  image-rendering: pixelated;
+}
+button:hover:not(:disabled) {
+  background: #7d93c8;
+  @include bevel(#a8bdf0, #4a5d8f);
+}
+button:active:not(:disabled) {
+  @include bevel(var(--stone-dark), var(--stone-light));
+}
+button.primary {
+  background: var(--grass);
+  @include bevel(var(--grass-light), var(--grass-dark));
+}
+button.primary:hover:not(:disabled) {
+  background: #6cbf3c;
+  @include bevel(#a4e86f, var(--grass-dark));
+}
+button:disabled {
+  cursor: not-allowed;
+  color: #a0a0a0;
+  background: #6b6b6b;
+  text-shadow: none;
+  @include bevel(#7f7f7f, #4a4a4a);
+}
+
+/* 🔄 ช่องกรอก = slot ในกล่องเก็บของ (ยุบลง) */
+input, textarea, select {
+  padding: 8px;
+  font: inherit;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #373737;
+  @include bevel(#1e1e1e, #6a6a6a, 2px);
+}
+input::placeholder, textarea::placeholder { color: #a8a8a8; }
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 0;
+}
+
+/* 🔄 panel แบบกล่อง GUI */
+.card {
+  background: var(--panel);
+  border: 3px solid #000;
+  border-radius: 0;
+  padding: 14px;
+  margin-bottom: 12px;
+  @include bevel(var(--panel-light), var(--panel-dark), 4px);
+}
+.card h1, .card h2, .card h3 {
+  font-family: var(--pixel-font);
+  margin-top: 0;
+  color: #3f3f3f;
+}
+
+/* 🔄 ข้อความแชท */
+.msg-user { background: #d8e8c8; }
+.msg-ai { background: var(--panel); }
+.card small:first-child {
+  display: inline-block;
+  font-family: var(--pixel-font);
+  font-weight: 700;
+  color: #fff;
+  background: var(--dirt);
+  padding: 1px 8px;
+  margin-bottom: 6px;
+  border: 2px solid #000;
+}
+.msg-user small:first-child { background: var(--grass-dark); }
+
+.error {
+  color: #fff;
+  background: var(--redstone);
+  border: 2px solid #000;
+  padding: 4px 8px;
+}
+.banner-warn {
+  background: var(--gold);
+  border: 3px solid #000;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  @include bevel(#fff59d, #b59a00);
+}
+
+mark { background: var(--gold); padding: 0 3px; border: 1px solid #000; }
+
+table { border-collapse: collapse; width: 100%; background: #e2e2e2; border: 3px solid #000; }
+th { background: var(--stone-dark); color: #fff; font-family: var(--pixel-font); }
+th, td { border: 2px solid #000; padding: 5px 8px; text-align: left; vertical-align: top; }
+tr:nth-child(even) td { background: #d0d0d0; }
+
+pre { white-space: pre-wrap; word-break: break-word; margin: 0; font-family: inherit; }
+
+/* 🔄 layout หน้าแชท / login / รายการบทสนทนา (แทน inline style) */
+.chat-layout { display: grid; grid-template-columns: 240px 1fr; gap: 16px; }
+@media (max-width: 720px) { .chat-layout { grid-template-columns: 1fr; } }
+.full-width { width: 100%; }
+.login-box { max-width: 380px; margin: 64px auto; }
+.conv-list { list-style: none; padding: 0; margin: 0; }
+.conv-list li { margin: 4px 0; }
+.conv-list a {
+  display: block;
+  padding: 6px 8px;
+  color: var(--ink);
+  text-decoration: none;
+  background: #b0b0b0;
+  border: 2px solid #000;
+  @include bevel(#d8d8d8, #7a7a7a, 2px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.conv-list a:hover { background: #c8d8f0; }
+.conv-list a.active { background: var(--grass-light); font-weight: 700; }

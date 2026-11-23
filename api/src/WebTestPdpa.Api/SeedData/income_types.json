@@ -1,0 +1,56 @@
+[
+  {
+    "code": "SALARY",
+    "nameTh": "เงินเดือน",
+    "nameEn": "Salary",
+    "category": "regular"
+  },
+  {
+    "code": "POSITION_ALLOWANCE",
+    "nameTh": "ค่าตำแหน่ง",
+    "nameEn": "Position Allowance",
+    "category": "regular"
+  },
+  {
+    "code": "COST_OF_LIVING",
+    "nameTh": "ค่าครองชีพ",
+    "nameEn": "Cost of Living Allowance",
+    "category": "regular"
+  },
+  {
+    "code": "OT",
+    "nameTh": "ค่าล่วงเวลา",
+    "nameEn": "Overtime",
+    "category": "irregular"
+  },
+  {
+    "code": "SHIFT",
+    "nameTh": "ค่ากะ",
+    "nameEn": "Shift Allowance",
+    "category": "irregular"
+  },
+  {
+    "code": "PER_DIEM",
+    "nameTh": "เบี้ยเลี้ยง",
+    "nameEn": "Per Diem",
+    "category": "irregular"
+  },
+  {
+    "code": "BONUS",
+    "nameTh": "โบนัส",
+    "nameEn": "Bonus",
+    "category": "special"
+  },
+  {
+    "code": "REWARD",
+    "nameTh": "เงินรางวัล",
+    "nameEn": "Reward",
+    "category": "special"
+  },
+  {
+    "code": "COMMISSION",
+    "nameTh": "ค่าคอมมิชชั่น",
+    "nameEn": "Commission",
+    "category": "special"
+  }
+]

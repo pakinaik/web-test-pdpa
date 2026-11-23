@@ -1,0 +1,1586 @@
+[
+  {
+    "employeeCode": "emp001",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "ภาคิน",
+    "lastNameTh": "ศรีวรากร",
+    "titleEn": "Mr.",
+    "firstNameEn": "Pakin",
+    "lastNameEn": "Sriwarakorn",
+    "nationalId": "1549377777848",
+    "taxId": "1549377777848",
+    "socialSecurityNo": "1549377777848",
+    "phone": "081-555-0101",
+    "email": "pakin.s@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1990-05-12",
+    "address": "13/1 ถนนสมมติ2 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10107",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "A",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "407-2-51131-1",
+    "positionCode": "SYS_ANALYST",
+    "hireDate": "2019-04-01",
+    "emergencyContacts": [
+      {
+        "name": "ศุภวัฒน์ ศรีวรากร",
+        "relationship": "มารดา",
+        "phone": "091-555-0201"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 46000,
+        "positionCode": "SYS_ANALYST"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 48750,
+        "positionCode": "SYS_ANALYST"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2500
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 2900
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 97500
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp002",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "นภัสสร",
+    "lastNameTh": "จันทรประภา",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Napatsorn",
+    "lastNameEn": "Chantraprapa",
+    "nationalId": "1648143210017",
+    "taxId": "1648143210017",
+    "socialSecurityNo": "1648143210017",
+    "phone": "082-555-0102",
+    "email": "napatsorn.c@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1993-11-03",
+    "address": "16/2 ถนนสมมติ3 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10114",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "B",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "414-3-51262-2",
+    "positionCode": "DEVELOPER",
+    "hireDate": "2021-07-01",
+    "emergencyContacts": [
+      {
+        "name": "วันเพ็ญ จันทรประภา",
+        "relationship": "บิดา",
+        "phone": "092-555-0202"
+      },
+      {
+        "name": "สมพร จันทรประภา",
+        "relationship": "คู่สมรส",
+        "phone": "093-555-0302"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 40000,
+        "positionCode": "DEVELOPER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 42400,
+        "positionCode": "DEVELOPER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        }
+      ],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp003",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "ปกรณ์",
+    "lastNameTh": "เจริญวิชชากุล",
+    "titleEn": "Mr.",
+    "firstNameEn": "Pakorn",
+    "lastNameEn": "Charoenwitchakul",
+    "nationalId": "1746908642188",
+    "taxId": "1746908642188",
+    "socialSecurityNo": "1746908642188",
+    "phone": "083-555-0103",
+    "email": "pakorn.c@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1985-02-27",
+    "address": "19/3 ถนนสมมติ4 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10121",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "AB",
+    "chronicDisease": "เบาหวานชนิดที่ 2",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารสมมติ",
+    "bankAccountNo": "421-4-51393-3",
+    "positionCode": "SR_DEVELOPER",
+    "hireDate": "2016-02-15",
+    "emergencyContacts": [
+      {
+        "name": "อรรถพล เจริญวิชชากุล",
+        "relationship": "มารดา",
+        "phone": "093-555-0203"
+      },
+      {
+        "name": "กัลยา เจริญวิชชากุล",
+        "relationship": "คู่สมรส",
+        "phone": "094-555-0303"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 41000,
+        "positionCode": "DEVELOPER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 43450,
+        "positionCode": "DEVELOPER"
+      },
+      {
+        "effectiveDate": "2025-10-01",
+        "baseSalary": 65000,
+        "positionCode": "SR_DEVELOPER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 3000
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 3100
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 86900
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp004",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "กฤติยา",
+    "lastNameTh": "รัตนากร",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Kritiya",
+    "lastNameEn": "Rattanakorn",
+    "nationalId": "1845674074357",
+    "taxId": "1845674074357",
+    "socialSecurityNo": "1845674074357",
+    "phone": "084-555-0104",
+    "email": "kritiya.r@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1991-08-19",
+    "address": "22/4 ถนนสมมติ5 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10128",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "คริสต์",
+    "bloodType": "O",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "428-5-51524-4",
+    "positionCode": "QA_ENGINEER",
+    "hireDate": "2020-01-06",
+    "emergencyContacts": [
+      {
+        "name": "จุฑามาศ รัตนากร",
+        "relationship": "บิดา",
+        "phone": "094-555-0204"
+      },
+      {
+        "name": "ธวัชชัย รัตนากร",
+        "relationship": "คู่สมรส",
+        "phone": "095-555-0304"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 40000,
+        "positionCode": "QA_ENGINEER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 42400,
+        "positionCode": "QA_ENGINEER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        }
+      ],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp005",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "ธีรวัฒน์",
+    "lastNameTh": "สุวรรณเกษม",
+    "titleEn": "Mr.",
+    "firstNameEn": "Theerawat",
+    "lastNameEn": "Suwannakasem",
+    "nationalId": "1944439506526",
+    "taxId": "1944439506526",
+    "socialSecurityNo": "1944439506526",
+    "phone": "085-555-0105",
+    "email": "theerawat.s@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1996-01-30",
+    "address": "25/5 ถนนสมมติ1 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10135",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "A",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "435-6-51655-5",
+    "positionCode": "ACCOUNTANT",
+    "hireDate": "2022-05-16",
+    "emergencyContacts": [
+      {
+        "name": "สมพร สุวรรณเกษม",
+        "relationship": "มารดา",
+        "phone": "095-555-0205"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 34000,
+        "positionCode": "ACCOUNTANT"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 36050,
+        "positionCode": "ACCOUNTANT"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 3300
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 72100
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp006",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "พิมพ์ลดา",
+    "lastNameTh": "อินทรวงศ์",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Pimlada",
+    "lastNameEn": "Intarawong",
+    "nationalId": "1043204938695",
+    "taxId": "1043204938695",
+    "socialSecurityNo": "1043204938695",
+    "phone": "086-555-0106",
+    "email": "pimlada.i@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1983-06-08",
+    "address": "28/6 ถนนสมมติ2 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10142",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "B",
+    "chronicDisease": "ความดันโลหิตสูง",
+    "ethnicity": "ไทยเชื้อสายจีน",
+    "bankName": "ธนาคารสมมติ",
+    "bankAccountNo": "442-7-51786-6",
+    "positionCode": "SR_ACCOUNTANT",
+    "hireDate": "2015-09-01",
+    "emergencyContacts": [
+      {
+        "name": "กัลยา อินทรวงศ์",
+        "relationship": "บิดา",
+        "phone": "096-555-0206"
+      },
+      {
+        "name": "นิรันดร์ อินทรวงศ์",
+        "relationship": "คู่สมรส",
+        "phone": "097-555-0306"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 35000,
+        "positionCode": "ACCOUNTANT"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 37100,
+        "positionCode": "ACCOUNTANT"
+      },
+      {
+        "effectiveDate": "2025-10-01",
+        "baseSalary": 53000,
+        "positionCode": "SR_ACCOUNTANT"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 3000
+        }
+      ],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp007",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "อนันต์ชัย",
+    "lastNameTh": "ภัทรกุลพงศ์",
+    "titleEn": "Mr.",
+    "firstNameEn": "Anunchai",
+    "lastNameEn": "Pattarakulpong",
+    "nationalId": "1141970370863",
+    "taxId": "1141970370863",
+    "socialSecurityNo": "1141970370863",
+    "phone": "087-555-0107",
+    "email": "anunchai.p@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1980-12-21",
+    "address": "31/7 ถนนสมมติ3 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10149",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "อิสลาม",
+    "bloodType": "AB",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทยเชื้อสายมลายู",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "449-8-51917-0",
+    "positionCode": "OPS_MANAGER",
+    "hireDate": "2014-03-10",
+    "emergencyContacts": [
+      {
+        "name": "ธวัชชัย ภัทรกุลพงศ์",
+        "relationship": "มารดา",
+        "phone": "097-555-0207"
+      },
+      {
+        "name": "สุดารัตน์ ภัทรกุลพงศ์",
+        "relationship": "คู่สมรส",
+        "phone": "098-555-0307"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 87000,
+        "positionCode": "OPS_MANAGER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 92200,
+        "positionCode": "OPS_MANAGER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 4000
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 3500
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 184400
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp008",
+    "roles": [],
+    "titleTh": "นางสาว",
+    "firstNameTh": "ศิรินภา",
+    "lastNameTh": "กิตติเมธา",
+    "titleEn": "Ms.",
+    "firstNameEn": "Sirinapha",
+    "lastNameEn": "Kittimetha",
+    "nationalId": "1240735803036",
+    "taxId": "1240735803036",
+    "socialSecurityNo": "1240735803036",
+    "phone": "088-555-0108",
+    "email": "sirinapha.k@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1998-04-14",
+    "address": "34/8 ถนนสมมติ4 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10156",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "O",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "456-9-52048-1",
+    "positionCode": "MARKETING_OFFICER",
+    "hireDate": "2023-02-01",
+    "emergencyContacts": [
+      {
+        "name": "พรทิพย์ กิตติเมธา",
+        "relationship": "บิดา",
+        "phone": "098-555-0208"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 35000,
+        "positionCode": "MARKETING_OFFICER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 37100,
+        "positionCode": "MARKETING_OFFICER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 3600
+        },
+        {
+          "type": "SHIFT",
+          "months": [
+            2,
+            5,
+            8,
+            11
+          ],
+          "amount": 1500
+        }
+      ],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp009",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "วรเมธ",
+    "lastNameTh": "ปัญจะพงศ์",
+    "titleEn": "Mr.",
+    "firstNameEn": "Waramet",
+    "lastNameEn": "Panjapong",
+    "nationalId": "1339501235209",
+    "taxId": "1339501235209",
+    "socialSecurityNo": "1339501235209",
+    "phone": "089-555-0109",
+    "email": "waramet.p@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1995-09-09",
+    "address": "37/9 ถนนสมมติ5 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10163",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "A",
+    "chronicDisease": "ภูมิแพ้",
+    "ethnicity": "ไทยเชื้อสายจีน",
+    "bankName": "ธนาคารสมมติ",
+    "bankAccountNo": "463-1-52179-2",
+    "positionCode": "SALES_EXEC",
+    "hireDate": "2021-11-01",
+    "emergencyContacts": [
+      {
+        "name": "นิรันดร์ ปัญจะพงศ์",
+        "relationship": "มารดา",
+        "phone": "099-555-0209"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 34000,
+        "positionCode": "SALES_EXEC"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 36050,
+        "positionCode": "SALES_EXEC"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 3700
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 72100
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        },
+        {
+          "type": "COMMISSION",
+          "months": [
+            3,
+            9
+          ],
+          "amount": 14250
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp010",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "ชลธิชา",
+    "lastNameTh": "มณีรัตนกุล",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Chonthicha",
+    "lastNameEn": "Maneerattanakul",
+    "nationalId": "1438266667378",
+    "taxId": "1438266667378",
+    "socialSecurityNo": "1438266667378",
+    "phone": "080-555-0110",
+    "email": "chonthicha.m@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1989-03-25",
+    "address": "40/10 ถนนสมมติ1 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10170",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "B",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "470-2-52310-3",
+    "positionCode": "SALES_EXEC",
+    "hireDate": "2018-06-18",
+    "emergencyContacts": [
+      {
+        "name": "สุดารัตน์ มณีรัตนกุล",
+        "relationship": "บิดา",
+        "phone": "090-555-0210"
+      },
+      {
+        "name": "อรรถพล มณีรัตนกุล",
+        "relationship": "คู่สมรส",
+        "phone": "091-555-0310"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 30000,
+        "positionCode": "SALES_EXEC"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 31800,
+        "positionCode": "SALES_EXEC"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 3800
+        },
+        {
+          "type": "SHIFT",
+          "months": [
+            2,
+            5,
+            8,
+            11
+          ],
+          "amount": 1500
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 63600
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        },
+        {
+          "type": "COMMISSION",
+          "months": [
+            3,
+            9
+          ],
+          "amount": 14500
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp011",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "ณัฐพัชร์",
+    "lastNameTh": "โกศลวัฒนา",
+    "titleEn": "Mr.",
+    "firstNameEn": "Nattapat",
+    "lastNameEn": "Kosolwattana",
+    "nationalId": "1537032099541",
+    "taxId": "1537032099541",
+    "socialSecurityNo": "1537032099541",
+    "phone": "081-555-0111",
+    "email": "nattapat.k@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1997-07-17",
+    "address": "43/11 ถนนสมมติ2 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10177",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "AB",
+    "chronicDisease": "หอบหืด",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "477-3-52441-4",
+    "positionCode": "DEVELOPER",
+    "hireDate": "2022-08-08",
+    "emergencyContacts": [
+      {
+        "name": "ศุภวัฒน์ โกศลวัฒนา",
+        "relationship": "มารดา",
+        "phone": "091-555-0211"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 39000,
+        "positionCode": "DEVELOPER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 41350,
+        "positionCode": "DEVELOPER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 82700
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp012",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "รุ่งอรุณ",
+    "lastNameTh": "สิทธิชัยสกุล",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Rungarun",
+    "lastNameEn": "Sitthichaisakul",
+    "nationalId": "1635797531715",
+    "taxId": "1635797531715",
+    "socialSecurityNo": "1635797531715",
+    "phone": "082-555-0112",
+    "email": "rungarun.s@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1987-10-05",
+    "address": "46/12 ถนนสมมติ3 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10184",
+    "nationality": "ไทย",
+    "maritalStatus": "หย่า",
+    "religion": "คริสต์",
+    "bloodType": "O",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารสมมติ",
+    "bankAccountNo": "484-4-52572-5",
+    "positionCode": "ADMIN_OFFICER",
+    "hireDate": "2017-10-02",
+    "emergencyContacts": [
+      {
+        "name": "วันเพ็ญ สิทธิชัยสกุล",
+        "relationship": "บิดา",
+        "phone": "092-555-0212"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 26000,
+        "positionCode": "ADMIN_OFFICER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 27550,
+        "positionCode": "ADMIN_OFFICER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp013",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "เตชินท์",
+    "lastNameTh": "อรุณวัฒนา",
+    "titleEn": "Mr.",
+    "firstNameEn": "Techin",
+    "lastNameEn": "Arunwattana",
+    "nationalId": "1734562963885",
+    "taxId": "1734562963885",
+    "socialSecurityNo": "1734562963885",
+    "phone": "083-555-0113",
+    "email": "techin.a@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1988-05-23",
+    "address": "49/13 ถนนสมมติ4 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10191",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "A",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "491-5-52703-6",
+    "positionCode": "SYS_ANALYST",
+    "hireDate": "2019-12-02",
+    "emergencyContacts": [
+      {
+        "name": "อรรถพล อรุณวัฒนา",
+        "relationship": "มารดา",
+        "phone": "093-555-0213"
+      },
+      {
+        "name": "กัลยา อรุณวัฒนา",
+        "relationship": "คู่สมรส",
+        "phone": "094-555-0313"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 48000,
+        "positionCode": "SYS_ANALYST"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 50900,
+        "positionCode": "SYS_ANALYST"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2500
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 4100
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 101800
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp014",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "ลัดดาวัลย์",
+    "lastNameTh": "พิพัฒน์กุล",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Laddawan",
+    "lastNameEn": "Phiphatkul",
+    "nationalId": "1833328396056",
+    "taxId": "1833328396056",
+    "socialSecurityNo": "1833328396056",
+    "phone": "084-555-0114",
+    "email": "laddawan.p@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1984-01-11",
+    "address": "52/14 ถนนสมมติ5 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10198",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "B",
+    "chronicDisease": "ไมเกรน",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "498-6-52834-0",
+    "positionCode": "LEGAL_OFFICER",
+    "hireDate": "2016-08-22",
+    "emergencyContacts": [
+      {
+        "name": "จุฑามาศ พิพัฒน์กุล",
+        "relationship": "บิดา",
+        "phone": "094-555-0214"
+      },
+      {
+        "name": "ธวัชชัย พิพัฒน์กุล",
+        "relationship": "คู่สมรส",
+        "phone": "095-555-0314"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 52000,
+        "positionCode": "LEGAL_OFFICER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 55100,
+        "positionCode": "LEGAL_OFFICER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2500
+        }
+      ],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp015",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "สุรเชษฐ์",
+    "lastNameTh": "ธนากรวงศ์",
+    "titleEn": "Mr.",
+    "firstNameEn": "Surachet",
+    "lastNameEn": "Thanakornwong",
+    "nationalId": "1932093828227",
+    "taxId": "1932093828227",
+    "socialSecurityNo": "1932093828227",
+    "phone": "085-555-0115",
+    "email": "surachet.t@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1986-09-02",
+    "address": "55/15 ถนนสมมติ1 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10205",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "อิสลาม",
+    "bloodType": "AB",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทยเชื้อสายมลายู",
+    "bankName": "ธนาคารสมมติ",
+    "bankAccountNo": "505-7-52965-1",
+    "positionCode": "SR_DEVELOPER",
+    "hireDate": "2017-04-17",
+    "emergencyContacts": [
+      {
+        "name": "สมพร ธนากรวงศ์",
+        "relationship": "มารดา",
+        "phone": "095-555-0215"
+      },
+      {
+        "name": "พรทิพย์ ธนากรวงศ์",
+        "relationship": "คู่สมรส",
+        "phone": "096-555-0315"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 38000,
+        "positionCode": "DEVELOPER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 40300,
+        "positionCode": "DEVELOPER"
+      },
+      {
+        "effectiveDate": "2025-10-01",
+        "baseSalary": 62000,
+        "positionCode": "SR_DEVELOPER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 3000
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 4300
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 80600
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  },
+  {
+    "employeeCode": "emp016",
+    "roles": [],
+    "titleTh": "นางสาว",
+    "firstNameTh": "อัญชิสา",
+    "lastNameTh": "บุญเรืองศรี",
+    "titleEn": "Ms.",
+    "firstNameEn": "Anchisa",
+    "lastNameEn": "Bunruangsri",
+    "nationalId": "1030859260397",
+    "taxId": "1030859260397",
+    "socialSecurityNo": "1030859260397",
+    "phone": "086-555-0116",
+    "email": "anchisa.b@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1999-02-16",
+    "address": "58/16 ถนนสมมติ2 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10212",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "O",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "512-8-53096-2",
+    "positionCode": "MARKETING_OFFICER",
+    "hireDate": "2023-06-01",
+    "emergencyContacts": [
+      {
+        "name": "กัลยา บุญเรืองศรี",
+        "relationship": "บิดา",
+        "phone": "096-555-0216"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 33000,
+        "positionCode": "MARKETING_OFFICER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 35000,
+        "positionCode": "MARKETING_OFFICER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp017",
+    "roles": [],
+    "titleTh": "นาย",
+    "firstNameTh": "ไพรัช",
+    "lastNameTh": "สถาพรกุล",
+    "titleEn": "Mr.",
+    "firstNameEn": "Phairat",
+    "lastNameEn": "Sathapornkul",
+    "nationalId": "1129624692561",
+    "taxId": "1129624692561",
+    "socialSecurityNo": "1129624692561",
+    "phone": "087-555-0117",
+    "email": "phairat.s@example.co.th",
+    "gender": "ชาย",
+    "dateOfBirth": "1994-11-28",
+    "address": "61/17 ถนนสมมติ3 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10219",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "A",
+    "chronicDisease": "ไทรอยด์",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "519-9-53227-3",
+    "positionCode": "QA_ENGINEER",
+    "hireDate": "2020-09-14",
+    "emergencyContacts": [
+      {
+        "name": "ธวัชชัย สถาพรกุล",
+        "relationship": "มารดา",
+        "phone": "097-555-0217"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 38000,
+        "positionCode": "QA_ENGINEER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 40300,
+        "positionCode": "QA_ENGINEER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        },
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [
+        {
+          "type": "OT",
+          "months": [
+            1,
+            3,
+            6,
+            9
+          ],
+          "amount": 4500
+        },
+        {
+          "type": "PER_DIEM",
+          "months": [
+            4,
+            10
+          ],
+          "amount": 1200
+        }
+      ],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp018",
+    "roles": [],
+    "titleTh": "นาง",
+    "firstNameTh": "ศุภกานต์",
+    "lastNameTh": "วัฒนกิจ",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Supakarn",
+    "lastNameEn": "Wattanakit",
+    "nationalId": "1228390124731",
+    "taxId": "1228390124731",
+    "socialSecurityNo": "1228390124731",
+    "phone": "088-555-0118",
+    "email": "supakarn.w@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1990-08-07",
+    "address": "64/18 ถนนสมมติ4 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10226",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "B",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารสมมติ",
+    "bankAccountNo": "526-1-53358-4",
+    "positionCode": "ACCOUNTANT",
+    "hireDate": "2018-03-05",
+    "emergencyContacts": [
+      {
+        "name": "พรทิพย์ วัฒนกิจ",
+        "relationship": "บิดา",
+        "phone": "098-555-0218"
+      },
+      {
+        "name": "ศุภวัฒน์ วัฒนกิจ",
+        "relationship": "คู่สมรส",
+        "phone": "099-555-0318"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 37000,
+        "positionCode": "ACCOUNTANT"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 39200,
+        "positionCode": "ACCOUNTANT"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        }
+      ],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp019",
+    "roles": [],
+    "titleTh": "นางสาว",
+    "firstNameTh": "ธนพร",
+    "lastNameTh": "เลิศพิพัฒน์",
+    "titleEn": "Ms.",
+    "firstNameEn": "Thanaporn",
+    "lastNameEn": "Loetphiphat",
+    "nationalId": "1327155556900",
+    "taxId": "1327155556900",
+    "socialSecurityNo": "1327155556900",
+    "phone": "089-555-0119",
+    "email": "thanaporn.l@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "2000-05-30",
+    "address": "67/19 ถนนสมมติ5 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10233",
+    "nationality": "ไทย",
+    "maritalStatus": "โสด",
+    "religion": "พุทธ",
+    "bloodType": "AB",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารตัวอย่าง",
+    "bankAccountNo": "533-2-53489-5",
+    "positionCode": "ADMIN_OFFICER",
+    "hireDate": "2024-01-08",
+    "emergencyContacts": [
+      {
+        "name": "นิรันดร์ เลิศพิพัฒน์",
+        "relationship": "มารดา",
+        "phone": "099-555-0219"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 28000,
+        "positionCode": "ADMIN_OFFICER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 29700,
+        "positionCode": "ADMIN_OFFICER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "COST_OF_LIVING",
+          "amount": 2000
+        }
+      ],
+      "irregular": [],
+      "special": []
+    }
+  },
+  {
+    "employeeCode": "emp020",
+    "roles": [
+      "HR"
+    ],
+    "titleTh": "นาง",
+    "firstNameTh": "ชลิตา",
+    "lastNameTh": "พงศ์ปภัสร์",
+    "titleEn": "Mrs.",
+    "firstNameEn": "Chalita",
+    "lastNameEn": "Pongpapat",
+    "nationalId": "1425920989071",
+    "taxId": "1425920989071",
+    "socialSecurityNo": "1425920989071",
+    "phone": "080-555-0120",
+    "email": "chalita.p@example.co.th",
+    "gender": "หญิง",
+    "dateOfBirth": "1982-03-18",
+    "address": "70/20 ถนนสมมติ1 แขวงตัวอย่าง เขตทดสอบ กรุงเทพมหานคร 10240",
+    "nationality": "ไทย",
+    "maritalStatus": "สมรส",
+    "religion": "พุทธ",
+    "bloodType": "O",
+    "chronicDisease": "ไม่มี",
+    "ethnicity": "ไทย",
+    "bankName": "ธนาคารทดสอบ",
+    "bankAccountNo": "540-3-53620-6",
+    "positionCode": "HR_OFFICER",
+    "hireDate": "2015-05-04",
+    "emergencyContacts": [
+      {
+        "name": "สุดารัตน์ พงศ์ปภัสร์",
+        "relationship": "บิดา",
+        "phone": "090-555-0220"
+      },
+      {
+        "name": "อรรถพล พงศ์ปภัสร์",
+        "relationship": "คู่สมรส",
+        "phone": "091-555-0320"
+      }
+    ],
+    "salaryHistory": [
+      {
+        "effectiveDate": "2023-04-01",
+        "baseSalary": 40000,
+        "positionCode": "HR_OFFICER"
+      },
+      {
+        "effectiveDate": "2025-04-01",
+        "baseSalary": 42400,
+        "positionCode": "HR_OFFICER"
+      }
+    ],
+    "incomeProfile": {
+      "recurring": [
+        {
+          "type": "POSITION_ALLOWANCE",
+          "amount": 2000
+        }
+      ],
+      "irregular": [],
+      "special": [
+        {
+          "type": "BONUS",
+          "months": [
+            12
+          ],
+          "amount": 84800
+        },
+        {
+          "type": "REWARD",
+          "months": [
+            6
+          ],
+          "amount": 5000
+        }
+      ]
+    }
+  }
+]

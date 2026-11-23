@@ -1,0 +1,86 @@
+[
+  {
+    "code": "SYS_ANALYST",
+    "nameTh": "นักวิเคราะห์ระบบ",
+    "nameEn": "Systems Analyst",
+    "level": 5,
+    "departmentTh": "เทคโนโลยีสารสนเทศ"
+  },
+  {
+    "code": "DEVELOPER",
+    "nameTh": "นักพัฒนาซอฟต์แวร์",
+    "nameEn": "Software Developer",
+    "level": 4,
+    "departmentTh": "เทคโนโลยีสารสนเทศ"
+  },
+  {
+    "code": "SR_DEVELOPER",
+    "nameTh": "นักพัฒนาซอฟต์แวร์อาวุโส",
+    "nameEn": "Senior Software Developer",
+    "level": 6,
+    "departmentTh": "เทคโนโลยีสารสนเทศ"
+  },
+  {
+    "code": "QA_ENGINEER",
+    "nameTh": "วิศวกรทดสอบระบบ",
+    "nameEn": "QA Engineer",
+    "level": 4,
+    "departmentTh": "เทคโนโลยีสารสนเทศ"
+  },
+  {
+    "code": "ACCOUNTANT",
+    "nameTh": "นักบัญชี",
+    "nameEn": "Accountant",
+    "level": 4,
+    "departmentTh": "การเงินและบัญชี"
+  },
+  {
+    "code": "SR_ACCOUNTANT",
+    "nameTh": "นักบัญชีอาวุโส",
+    "nameEn": "Senior Accountant",
+    "level": 6,
+    "departmentTh": "การเงินและบัญชี"
+  },
+  {
+    "code": "OPS_MANAGER",
+    "nameTh": "ผู้จัดการฝ่ายปฏิบัติการ",
+    "nameEn": "Operations Manager",
+    "level": 8,
+    "departmentTh": "ปฏิบัติการ"
+  },
+  {
+    "code": "MARKETING_OFFICER",
+    "nameTh": "เจ้าหน้าที่การตลาด",
+    "nameEn": "Marketing Officer",
+    "level": 3,
+    "departmentTh": "การตลาด"
+  },
+  {
+    "code": "SALES_EXEC",
+    "nameTh": "พนักงานขาย",
+    "nameEn": "Sales Executive",
+    "level": 3,
+    "departmentTh": "ขายและบริการลูกค้า"
+  },
+  {
+    "code": "ADMIN_OFFICER",
+    "nameTh": "เจ้าหน้าที่ธุรการ",
+    "nameEn": "Administrative Officer",
+    "level": 2,
+    "departmentTh": "ธุรการ"
+  },
+  {
+    "code": "LEGAL_OFFICER",
+    "nameTh": "นิติกร",
+    "nameEn": "Legal Officer",
+    "level": 5,
+    "departmentTh": "กฎหมายและกำกับดูแล"
+  },
+  {
+    "code": "HR_OFFICER",
+    "nameTh": "เจ้าหน้าที่ทรัพยากรบุคคล",
+    "nameEn": "HR Officer",
+    "level": 4,
+    "departmentTh": "ทรัพยากรบุคคล"
+  }
+]
